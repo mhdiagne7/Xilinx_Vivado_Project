@@ -1,0 +1,12 @@
+# Fichiers generes par Vivado : ils contiennent des chemins absolus de la
+# machine qui a compile, et cassent la compilation sur un autre PC.
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+.Xil/
+*.jou
+*.log
+*.str
