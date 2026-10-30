@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_compteur_vert_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_compteur_vert" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="260.000 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_compteur_vert/GClock" type="logic">
+      <obj_property name="ElementShortName">GClock</obj_property>
+      <obj_property name="ObjectShortName">GClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compteur_vert/GResetBar" type="logic">
+      <obj_property name="ElementShortName">GResetBar</obj_property>
+      <obj_property name="ObjectShortName">GResetBar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compteur_vert/Load" type="logic">
+      <obj_property name="ElementShortName">Load</obj_property>
+      <obj_property name="ObjectShortName">Load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compteur_vert/Vert" type="logic">
+      <obj_property name="ElementShortName">Vert</obj_property>
+      <obj_property name="ObjectShortName">Vert</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compteur_vert/Max" type="array">
+      <obj_property name="ElementShortName">Max[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Max[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compteur_vert/Valeur" type="array">
+      <obj_property name="ElementShortName">Valeur[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Valeur[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compteur_vert/Fini" type="logic">
+      <obj_property name="ElementShortName">Fini</obj_property>
+      <obj_property name="ObjectShortName">Fini</obj_property>
+   </wvobject>
+</wave_config>

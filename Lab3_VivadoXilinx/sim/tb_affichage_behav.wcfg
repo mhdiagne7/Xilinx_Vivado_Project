@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_affichage_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_affichage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="65.000 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_affichage/v" type="array">
+      <obj_property name="ElementShortName">v[3:0]</obj_property>
+      <obj_property name="ObjectShortName">v[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_affichage/diz" type="array">
+      <obj_property name="ElementShortName">diz[3:0]</obj_property>
+      <obj_property name="ObjectShortName">diz[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_affichage/uni" type="array">
+      <obj_property name="ElementShortName">uni[3:0]</obj_property>
+      <obj_property name="ObjectShortName">uni[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_affichage/Clk1kHz" type="logic">
+      <obj_property name="ElementShortName">Clk1kHz</obj_property>
+      <obj_property name="ObjectShortName">Clk1kHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_affichage/Valeur" type="array">
+      <obj_property name="ElementShortName">Valeur[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Valeur[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_affichage/AN" type="array">
+      <obj_property name="ElementShortName">AN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_affichage/SEG" type="array">
+      <obj_property name="ElementShortName">SEG[6:0]</obj_property>
+      <obj_property name="ObjectShortName">SEG[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_systeme_feux_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_systeme_feux" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="44000.000 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_systeme_feux/GResetBar" type="logic">
+      <obj_property name="ElementShortName">GResetBar</obj_property>
+      <obj_property name="ObjectShortName">GResetBar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/Clk1Hz" type="logic">
+      <obj_property name="ElementShortName">Clk1Hz</obj_property>
+      <obj_property name="ObjectShortName">Clk1Hz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/Load" type="logic">
+      <obj_property name="ElementShortName">Load</obj_property>
+      <obj_property name="ObjectShortName">Load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/Capteur" type="logic">
+      <obj_property name="ElementShortName">Capteur</obj_property>
+      <obj_property name="ObjectShortName">Capteur</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/MSC" type="array">
+      <obj_property name="ElementShortName">MSC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">MSC[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/SSC" type="array">
+      <obj_property name="ElementShortName">SSC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SSC[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/UUT/SSCS" type="logic">
+      <obj_property name="ElementShortName">SSCS</obj_property>
+      <obj_property name="ObjectShortName">SSCS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/UUT/MSCE" type="logic">
+      <obj_property name="ElementShortName">MSCE</obj_property>
+      <obj_property name="ObjectShortName">MSCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/UUT/MTE" type="logic">
+      <obj_property name="ElementShortName">MTE</obj_property>
+      <obj_property name="ObjectShortName">MTE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/UUT/SSCE" type="logic">
+      <obj_property name="ElementShortName">SSCE</obj_property>
+      <obj_property name="ObjectShortName">SSCE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/UUT/STE" type="logic">
+      <obj_property name="ElementShortName">STE</obj_property>
+      <obj_property name="ObjectShortName">STE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/MSTL" type="array">
+      <obj_property name="ElementShortName">MSTL[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MSTL[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/SSTL" type="array">
+      <obj_property name="ElementShortName">SSTL[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SSTL[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systeme_feux/Compteur" type="array">
+      <obj_property name="ElementShortName">Compteur[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Compteur[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
