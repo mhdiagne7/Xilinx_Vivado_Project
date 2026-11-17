@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_controleurClavier_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_controleurClavier" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="157 us"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_controleurClavier/HorlogeG" type="logic">
+      <obj_property name="ElementShortName">HorlogeG</obj_property>
+      <obj_property name="ObjectShortName">HorlogeG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/ResetG" type="logic">
+      <obj_property name="ElementShortName">ResetG</obj_property>
+      <obj_property name="ObjectShortName">ResetG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/HorlogeClavier" type="logic">
+      <obj_property name="ElementShortName">HorlogeClavier</obj_property>
+      <obj_property name="ObjectShortName">HorlogeClavier</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/InfoClavier" type="logic">
+      <obj_property name="ElementShortName">InfoClavier</obj_property>
+      <obj_property name="ObjectShortName">InfoClavier</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/UUT/HorlogeFiltree" type="logic">
+      <obj_property name="ElementShortName">HorlogeFiltree</obj_property>
+      <obj_property name="ObjectShortName">HorlogeFiltree</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/UUT/FD" type="logic">
+      <obj_property name="ElementShortName">FD</obj_property>
+      <obj_property name="ObjectShortName">FD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/UUT/Etat" type="array">
+      <obj_property name="ElementShortName">Etat[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Etat[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/UUT/Compte" type="array">
+      <obj_property name="ElementShortName">Compte[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Compte[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/UUT/Fin" type="logic">
+      <obj_property name="ElementShortName">Fin</obj_property>
+      <obj_property name="ObjectShortName">Fin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/UUT/OctetRecu" type="array">
+      <obj_property name="ElementShortName">OctetRecu[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OctetRecu[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/UUT/Charge" type="logic">
+      <obj_property name="ElementShortName">Charge</obj_property>
+      <obj_property name="ObjectShortName">Charge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/Affiche" type="array">
+      <obj_property name="ElementShortName">Affiche[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Affiche[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/AN" type="array">
+      <obj_property name="ElementShortName">AN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_controleurClavier/SEG" type="array">
+      <obj_property name="ElementShortName">SEG[6:0]</obj_property>
+      <obj_property name="ObjectShortName">SEG[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

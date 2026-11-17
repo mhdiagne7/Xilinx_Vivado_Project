@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_registres_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_registres" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="650 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_registres/GClock" type="logic">
+      <obj_property name="ElementShortName">GClock</obj_property>
+      <obj_property name="ObjectShortName">GClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_registres/GResetBar" type="logic">
+      <obj_property name="ElementShortName">GResetBar</obj_property>
+      <obj_property name="ObjectShortName">GResetBar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_registres/Info" type="logic">
+      <obj_property name="ElementShortName">Info</obj_property>
+      <obj_property name="ObjectShortName">Info</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_registres/Decale" type="logic">
+      <obj_property name="ElementShortName">Decale</obj_property>
+      <obj_property name="ObjectShortName">Decale</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_registres/Trame" type="array">
+      <obj_property name="ElementShortName">Trame[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Trame[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_registres/Octet" type="array">
+      <obj_property name="ElementShortName">Octet[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Octet[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_registres/Charge" type="logic">
+      <obj_property name="ElementShortName">Charge</obj_property>
+      <obj_property name="ObjectShortName">Charge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_registres/Affiche" type="array">
+      <obj_property name="ElementShortName">Affiche[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Affiche[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

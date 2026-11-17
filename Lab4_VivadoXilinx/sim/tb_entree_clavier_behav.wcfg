@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_entree_clavier_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_entree_clavier" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1800 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_entree_clavier/GClock" type="logic">
+      <obj_property name="ElementShortName">GClock</obj_property>
+      <obj_property name="ObjectShortName">GClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_entree_clavier/GResetBar" type="logic">
+      <obj_property name="ElementShortName">GResetBar</obj_property>
+      <obj_property name="ObjectShortName">GResetBar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_entree_clavier/HorlogeClavier" type="logic">
+      <obj_property name="ElementShortName">HorlogeClavier</obj_property>
+      <obj_property name="ObjectShortName">HorlogeClavier</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_entree_clavier/FILTRE/HC" type="array">
+      <obj_property name="ElementShortName">HC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">HC[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_entree_clavier/HorlogeFiltree" type="logic">
+      <obj_property name="ElementShortName">HorlogeFiltree</obj_property>
+      <obj_property name="ObjectShortName">HorlogeFiltree</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_entree_clavier/FD" type="logic">
+      <obj_property name="ElementShortName">FD</obj_property>
+      <obj_property name="ObjectShortName">FD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_entree_clavier/InfoClavier" type="logic">
+      <obj_property name="ElementShortName">InfoClavier</obj_property>
+      <obj_property name="ObjectShortName">InfoClavier</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_entree_clavier/InfoSync" type="logic">
+      <obj_property name="ElementShortName">InfoSync</obj_property>
+      <obj_property name="ObjectShortName">InfoSync</obj_property>
+   </wvobject>
+</wave_config>
